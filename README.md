@@ -1,18 +1,18 @@
-# :moneybag: JavaCoin - A Simple Cryptocurrency in Java
+# JavaCoin - A Simple Cryptocurrency in Java
 
 JavaCoin is a learning projects that implements a basic model of cryptocurrency using Java. It showcases core blockcjain concepts such as wallet creation, transaction handling, block mining, and block validation.
 
-## :scroll:	Technologies Used
+## Technologies Used
 * [BouncyCastle](https://www.bouncycastle.org/latest_releases.html) for cryptographic operations
 * [Google Gson](https://github.com/google/gson/releases) for object-to-JSON serialization 
-## :rocket: Features
+## Features
 * Generation of public/private key pairs (wallets)
 * Digital signatures and transaction verification
 * UTXO-based transaction model
 * Mining blocks
 * Blockchain integrity validation
 
-## :arrow_right: How it Works
+## How it Works
 Main workflow from Main.java:
 1. Creates wallets (walletA, walletB, and coinbase)
 2. Initializes a genesis block, where coinbase sends 100 JavaCoins to walletA
